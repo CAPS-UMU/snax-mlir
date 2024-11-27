@@ -100,3 +100,17 @@ module {
 }
 ```
 
+## 4. Identifying candidate workloads + feeding to zigzag + getting result
+
+Look at Jonas's work:
+
+```
+git remote add upstream https://github.com/KULeuven-MICAS/snax-mlir.git
+```
+
+then create branch from that upstream
+
+```
+git fetch upstream
+git checkout -b jonas/add-zigzag-tiling upstream/jonas/add-zigzag-tiling
+```
